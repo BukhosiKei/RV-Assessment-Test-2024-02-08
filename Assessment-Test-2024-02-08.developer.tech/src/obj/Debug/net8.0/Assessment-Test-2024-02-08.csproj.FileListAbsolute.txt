@@ -1,0 +1,6 @@
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.csproj.AssemblyReference.cache
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.AssemblyInfoInputs.cache
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.AssemblyInfo.cs
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/Assessment-Test-2024-02-08/obj/Debug/net8.0/Assessment-Test-2024-02-08.MvcApplicationPartsAssemblyInfo.cache

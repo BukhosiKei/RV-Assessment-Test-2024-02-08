@@ -1,0 +1,31 @@
+<button (click)="toggleView()" [disabled]="showList">List</button>
+<button (click)="toggleView()" [disabled]="!showList">Grid</button>
+
+<app-product-list
+  [products]="myProducts"
+  (selectProd)="logProduct($event)"
+  *ngIf="showList"
+></app-product-list>
+
+<app-product-grid
+  [products]="myProducts"
+  (selectProd)="logProduct($event)"
+  *ngIf="!showList"
+></app-product-grid>
+
+<div class="container">
+  <app-root>loading...</app-root>
+  <button class="create-button">Create Product</button>
+</div>
+
+<style>
+  .create-button {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+</style>
+
+<button class="create-button" routerLink="/create-product">Create Product</button>
+

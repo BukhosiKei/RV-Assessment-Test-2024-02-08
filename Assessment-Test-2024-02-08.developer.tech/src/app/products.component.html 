@@ -1,0 +1,10 @@
+<h2>Products</h2>
+<ul *ngIf="products.length > 0">
+  <li *ngFor="let product of products">
+    <h3>{{product.name}}</h3>
+    <p>{{product.description}}</p>
+    <span>Gender: {{product.gender}}</span>
+    <span>Size: {{product.size}}</span>
+  </li>
+</ul>
+<p *ngIf="products.length === 0">No products available.</p>

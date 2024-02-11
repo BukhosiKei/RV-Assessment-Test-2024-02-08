@@ -1,0 +1,11 @@
+<!-- product-list.component.html -->
+
+
+<h2>{{ heading }}</h2>
+
+<ul class="collection">
+  <li *ngFor="let product of products">
+    <button (click)="selectProduct(product)">Select</button>
+    <strong>{{ product.title }}</strong> R {{ product.price }}
+  </li>
+</ul>
